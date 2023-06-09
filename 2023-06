@@ -1,0 +1,6 @@
+Working on learning how to read and write files with:
+with open("file",mode = "r") as file:
+  x = file.read()
+  
+with open("file", mode = "w") as file:
+  x = file.write('This is new text')
